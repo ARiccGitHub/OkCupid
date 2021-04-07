@@ -118,9 +118,9 @@ okcupid_codebook.txt
 
 Data Files:
 data/*.csv     			# Data investigation 
-data/profiles_nlp.h5  		# NLT Preprocessed text file
+data/profiles_nlp.h5  		# NLT Preprocessed text files
 data/tfidf/*.csv		# TF-IDF files
-
+data/sim_percentages/*.csv	# TF-IDF terms analysis files
 Graphs:
 grah/*.png
 
