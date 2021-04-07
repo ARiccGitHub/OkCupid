@@ -20,6 +20,22 @@ formulate questions and implement machine learning techniques to answer those qu
 
 ----------------------------------------------------------------------------------------
 
+Overview
+
+OkCupid:
+In recent years, there has been a massive rise in the usage of dating apps to find love. 
+Many of these apps use sophisticated data science techniques to recommend possible matches to users and to optimize the user experience. 
+These apps give us access to a wealth of information that we’ve never had before about how different people experience romance.
+In this portfolio project, I analyze data from OKCupid, formulate questions and implement machine learning techniques to answer the questions.
+
+OkCupid DI:
+In this section, I investigate the OkCupid provided data, formulate questions, and preprocess the data.
+
+OkCupid TF-IDF:
+In this section, I compute the TF-IDF scores from the preprocessed data, and analyze the results.
+
+----------------------------------------------------------------------------------------
+
 Project Requirements:
 
 Knowledge:
@@ -49,44 +65,31 @@ https://pypi.org/project/gensim/
 Jupyter notebook:
 https://jupyter.org/
 
+----------------------------------------------------------------------------------------
 
 + OkCupid DI project memory management
-This project requires jupyter notebook to use a python 64bit version, 
-the 32bit version will generate a MemoryError when manipulating the provided data.
-If you want to use this project code lines and you are unsured of what python bit version your Jupyter Notebook uses, 
-you can enter the following code lines in your notebook:
 
+This project requires jupyter notebook to use the python 64bit version, the 32bit version will generate a MemoryError when manipulating the provided data.
+If you want to use this project code lines and you are unsure of which python bit version your Jupyter Notebook uses, you can enter the following code lines in your notebook:
+
+```
 import struct
 print(struct.calcsize("P") * 8)
+```
 
 You may also consider, increasing your Jupyter Notebook defaulted maximum memory buffer value.
 The Jupyter Notebook maximum memory buffer is defaulted to 536,870,912 bytes.
-How to increase Jupyter notebook Memory limit?
-Configure (Jupyter notebook) file and command line options
+	- How to increase Jupyter notebook Memory limit? (https://stackoverflow.com/questions/57948003/how-to-increase-jupyter-notebook-memory-limit)
+	- Configure (Jupyter notebook) file and command line options (https://jupyter-notebook.readthedocs.io/en/stable/config.html#config-file-and-command-line-options)
 
 I increased my Jupyter Notebook maximum memory buffer value to 8GB, my PC has 16GB of RAM.
-You need a minimum of 3GB of free RAM to run the project when using the full size of the provided data.
-If RAM is an issue, you may consider to use a sample of the provided data insteat of the entire size of the provided data.
+When using the full size of the provided data, you need a minimum of 3GB of free RAM to run this project.
+If RAM is an issue, you may consider using a sample of the provided data instead of the entire size of the provided data.
 You can also utilize:
-
-Garbage Collector interface library, Python Garbage Collection: What It Is and How It Works
-And the del python function, What does “del” do exactly?
-
-----------------------------------------------------------------------------------------
-
-Overview
-
-OkCupid:
-In recent years, there has been a massive rise in the usage of dating apps to find love. 
-Many of these apps use sophisticated data science techniques to recommend possible matches to users and to optimize the user experience. 
-These apps give us access to a wealth of information that we’ve never had before about how different people experience romance.
-In this portfolio project, I analyze data from OKCupid, formulate questions and implement machine learning techniques to answer the questions.
-
-OkCupid DI:
-In this section, I investigate the OkCupid provided data, formulate questions, and preprocess the data.
-
-OkCupid TF-IDF:
-In this section, I compute the TF-IDF scores from the preprocessed data, and analyze the results.
+	- Garbage Collector interface (https://docs.python.org/3/library/gc.html) library. 
+			What It Is and How It Works (https://stackify.com/python-garbage-collection/) 
+	- And the `del` python function. 
+			What does “del” do exactly? (https://stackoverflow.com/questions/21053380/what-does-del-do-exactly)
 
 ----------------------------------------------------------------------------------------
 
@@ -96,7 +99,7 @@ My Project Blog Presentation:
 
 
 Project GitHub:
-
+https://github.com/ARiccGitHub/OkCupid
 
 ----------------------------------------------------------------------------------------
 
@@ -126,9 +129,6 @@ grah/*.png
 
 Image:
 img/*.PNG
-
-Code Presentation:
-
 
 ----------------------------------------------------------------------------------------
 
