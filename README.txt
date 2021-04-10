@@ -3,7 +3,7 @@ OkCupid
 My Python portfolio from:
 Codecademy Machine Learning, Data Scientist Path.
 
-I divided the project in three different sections:
+I divided the project in two different sections:
 
 OKCupid ID - Data Investigation
 	- Provided data investigation
@@ -124,6 +124,7 @@ data/*.csv     			# Data investigation
 data/profiles_nlp.h5  		# NLT Preprocessed text files
 data/tfidf/*.csv		# TF-IDF files
 data/sim_percentages/*.csv	# TF-IDF terms analysis files
+
 Graphs:
 grah/*.png
 
